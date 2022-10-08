@@ -1,0 +1,11 @@
+.review-detailes {
+    display: flex;
+}
+
+.review-item img {
+    width: 91px;
+}
+
+.review-item {
+    display: flex;
+}
