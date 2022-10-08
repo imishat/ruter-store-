@@ -53,9 +53,9 @@ const [products, setProducts] = useState([]);
 
         return ( <
             div className = 'shop-container' >
-            <
-            div className = "products-container" > {
-                products.map(product => < Product key = { product.id }
+            
+            <div className = "products-container" > {
+                products.map(product => <Product key = { product.id }
                     product = { product }
                     handleAddToCart = { handleAddToCart } >
                     </Product>)
